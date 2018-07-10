@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a206890f-7f2c-4012-a98e-b2e54a03ff96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTree.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="primitive.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="box.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="kdTree.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="primitive.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
