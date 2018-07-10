@@ -1,4 +1,4 @@
-#ifndef ALL_H
+ï»¿#ifndef ALL_H
 #define ALL_H
 
 #include <opencv2\opencv.hpp>
@@ -50,8 +50,8 @@ class BoundingBox
 {
 public:
 	BoundingBox() : m_Pos( vector3( 0, 0, 0 ) ), m_Size( vector3( 0, 0, 0 ) ) {};
-	BoundingBox( vector3& p_Pos, vector3& p_Size ) : m_Pos( p_Pos ), m_Size( p_Size ) {};
-	//pos-Èı¸öÏòÁ¿Î¬¶È×îĞ¡Öµ sizeÈı¸öÎ¬¶È³ß´ç
+	BoundingBox( const vector3& p_Pos, const vector3& p_Size ) : m_Pos( p_Pos ), m_Size( p_Size ) {};
+	//pos-ä¸‰ä¸ªå‘é‡ç»´åº¦æœ€å°å€¼ sizeä¸‰ä¸ªç»´åº¦å°ºå¯¸
 	vector3& getPos() { return m_Pos; }
 	vector3& getSize() { return m_Size; }
 	bool Intersect( BoundingBox& b2 )
